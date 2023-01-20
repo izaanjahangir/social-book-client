@@ -8,6 +8,10 @@
   background: $primary !important;
 }
 
+.bg-light-grey {
+  background-color: $lightGreyBG;
+}
+
 .btn {
   cursor: pointer;
   @include border-radius(40px);

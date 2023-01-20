@@ -8,6 +8,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FilledInputComponent } from './components/filled-input/filled-input.component';
 import { ButtonComponent } from './components/button/button.component';
 import { CheckboxComponent } from './components/checkbox/checkbox.component';
+import { RegisterComponent } from './register/register.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { CheckboxComponent } from './components/checkbox/checkbox.component';
     LoginComponent,
     FilledInputComponent,
     ButtonComponent,
-    CheckboxComponent
+    CheckboxComponent,
+    RegisterComponent
   ],
   imports: [
     BrowserModule,
