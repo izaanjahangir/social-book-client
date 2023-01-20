@@ -2,8 +2,7 @@
 @import "./node_modules/bootstrap/scss/variables";
 @import "./node_modules/bootstrap/scss/mixins";
 
-$font-primary: "Lato", Arial, sans-serif;
-$primary: #8d448b;
+@import "../../variables.scss";
 
 body {
   font-family: $font-primary;
