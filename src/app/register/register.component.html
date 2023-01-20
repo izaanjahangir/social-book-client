@@ -8,33 +8,14 @@
           </div>
           <h3 class="text-center mb-4">Need an account?</h3>
           <form action="#" class="login-form">
-            <app-filled-input
-              [required]="true"
-              placeholder="First name"
-            ></app-filled-input>
-            <app-filled-input
-              [required]="true"
-              placeholder="Last name"
-            ></app-filled-input>
-            <app-filled-input
-              [required]="true"
-              placeholder="Username / Email"
-            ></app-filled-input>
-            <app-filled-input
-              type="password"
-              [required]="true"
-              placeholder="Password"
-            ></app-filled-input>
-            <app-filled-input
-              type="password"
-              [required]="true"
-              placeholder="Confirm Password"
-            ></app-filled-input>
+            <app-filled-input [required]="true" placeholder="First name"></app-filled-input>
+            <app-filled-input [required]="true" placeholder="Last name"></app-filled-input>
+            <app-filled-input [required]="true" placeholder="Username / Email"></app-filled-input>
+            <app-filled-input type="password" [required]="true" placeholder="Password"></app-filled-input>
+            <app-filled-input type="password" [required]="true" placeholder="Confirm Password"></app-filled-input>
             <div class="mt-4 d-flex flex-row justify-content-between">
               <app-button>Register</app-button>
-              <app-button bgTheme="lightGrey"
-                >Already have an account?</app-button
-              >
+              <app-button bgTheme="lightGrey">Already have an account?</app-button>
             </div>
           </form>
         </div>
