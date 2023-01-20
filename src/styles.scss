@@ -33,3 +33,9 @@ app-root {
 app-login {
   flex: 1;
 }
+
+app-register {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
