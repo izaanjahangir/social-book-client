@@ -1,0 +1,30 @@
+@import "../../../../variables.scss";
+
+:host {
+  height: 60px;
+  background-color: $primary;
+  display: flex;
+  padding: 0 15px;
+  align-items: center;
+}
+
+.left-arrow {
+  width: 35px;
+  height: 35px;
+}
+
+.username {
+  color: $white;
+  font-size: 1.3em;
+  margin: 0;
+  flex: 1;
+  text-align: center;
+}
+
+.inbox-text {
+  color: $white;
+  font-size: 1.3em;
+  margin: 0;
+  flex: 1;
+  text-align: center;
+}

@@ -1,6 +1,11 @@
-<button [type]="type" class="btn rounded submit p-2 px-5" [ngClass]="{
+<button
+  [type]="type"
+  [class]="'btn rounded submit p-2 px-5 ' + buttonClass"
+  [ngClass]="{
     'btn-primary': bgTheme === 'primary',
-    'bg-light-grey': bgTheme === 'lightGrey'
-  }">
+    'bg-light-grey': bgTheme === 'lightGrey',
+    'bg-red': bgTheme === 'danger'
+  }"
+>
   <ng-content></ng-content>
 </button>

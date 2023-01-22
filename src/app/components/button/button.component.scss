@@ -12,6 +12,15 @@
   background-color: $lightGreyBG;
 }
 
+.bg-red {
+  background-color: $red;
+  color: $white;
+
+  &:hover {
+    color: $white;
+  }
+}
+
 .btn {
   cursor: pointer;
   @include border-radius(40px);

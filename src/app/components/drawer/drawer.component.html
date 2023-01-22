@@ -1,3 +1,18 @@
-<div class="main-container">
-
+<app-avatar></app-avatar>
+<div class="drawer-content">
+  <app-drawer-item label="First name" value="Izaan"></app-drawer-item>
+  <app-drawer-item label="Last name" value="Jahangir"></app-drawer-item>
+  <app-drawer-item
+    label="Email"
+    value="izaanjahangir2@gmail.com"
+  ></app-drawer-item>
+  <app-drawer-item label="Gender" value="Male"></app-drawer-item>
 </div>
+<app-button
+  (click)="onLogout()"
+  class="w-100"
+  buttonClass="w-100"
+  bgTheme="danger"
+  block
+  >Logout</app-button
+>

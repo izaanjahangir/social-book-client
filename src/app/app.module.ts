@@ -12,6 +12,9 @@ import { RegisterComponent } from './register/register.component';
 import { HomeComponent } from './home/home.component';
 import { DrawerComponent } from './components/drawer/drawer.component';
 import { ChatroomComponent } from './components/chatroom/chatroom.component';
+import { ChatroomHeaderComponent } from './components/chatroom/chatroom-header/chatroom-header.component';
+import { AvatarComponent } from './components/avatar/avatar.component';
+import { DrawerItemComponent } from './components/drawer/drawer-item/drawer-item.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +26,10 @@ import { ChatroomComponent } from './components/chatroom/chatroom.component';
     RegisterComponent,
     HomeComponent,
     DrawerComponent,
-    ChatroomComponent
+    ChatroomComponent,
+    ChatroomHeaderComponent,
+    AvatarComponent,
+    DrawerItemComponent
   ],
   imports: [
     BrowserModule,

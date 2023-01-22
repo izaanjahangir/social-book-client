@@ -1,7 +1,17 @@
 @import "../../../variables.scss";
 
-.main-container {
+:host {
+  display: flex;
+  flex-direction: column;
+  width: 15%;
+  min-width: 270px;
+  padding: 15px 15px;
   background-color: $primary;
+  align-items: center;
+}
+
+.drawer-content {
+  margin-top: 10px;
   width: 100%;
   flex: 1;
 }
