@@ -15,7 +15,9 @@
             <app-filled-input type="password" [required]="true" placeholder="Confirm Password"></app-filled-input>
             <div class="mt-4 d-flex flex-row justify-content-between">
               <app-button>Register</app-button>
-              <app-button bgTheme="lightGrey">Already have an account?</app-button>
+              <app-button bgTheme="lightGrey">
+                <a routerLink="/login">Already have an account?</a>
+              </app-button>
             </div>
           </form>
         </div>

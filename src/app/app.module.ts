@@ -9,6 +9,9 @@ import { FilledInputComponent } from './components/filled-input/filled-input.com
 import { ButtonComponent } from './components/button/button.component';
 import { CheckboxComponent } from './components/checkbox/checkbox.component';
 import { RegisterComponent } from './register/register.component';
+import { HomeComponent } from './home/home.component';
+import { DrawerComponent } from './components/drawer/drawer.component';
+import { ChatroomComponent } from './components/chatroom/chatroom.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +20,10 @@ import { RegisterComponent } from './register/register.component';
     FilledInputComponent,
     ButtonComponent,
     CheckboxComponent,
-    RegisterComponent
+    RegisterComponent,
+    HomeComponent,
+    DrawerComponent,
+    ChatroomComponent
   ],
   imports: [
     BrowserModule,
