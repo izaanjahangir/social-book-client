@@ -16,6 +16,9 @@ import { ChatroomHeaderComponent } from './components/chatroom/chatroom-header/c
 import { AvatarComponent } from './components/avatar/avatar.component';
 import { DrawerItemComponent } from './components/drawer/drawer-item/drawer-item.component';
 import { UploadPostFormComponent } from './components/upload-post-form/upload-post-form.component';
+import { PostComponent } from './components/post/post.component';
+import { PostActionButtonComponent } from './components/post/post-action-button/post-action-button.component';
+import { VerticalSeperatorComponent } from './components/vertical-seperator/vertical-seperator.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +34,10 @@ import { UploadPostFormComponent } from './components/upload-post-form/upload-po
     ChatroomHeaderComponent,
     AvatarComponent,
     DrawerItemComponent,
-    UploadPostFormComponent
+    UploadPostFormComponent,
+    PostComponent,
+    PostActionButtonComponent,
+    VerticalSeperatorComponent
   ],
   imports: [
     BrowserModule,

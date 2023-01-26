@@ -2,7 +2,8 @@
 
 :host {
   display: flex;
-  border: 1px solid black;
+  border: 1px solid $mediumGreyBG;
+  border-radius: 5px;
 }
 
 .image-container {
@@ -14,6 +15,7 @@
   align-items: center;
   flex-direction: column;
   cursor: pointer;
+  border-radius: 5px;
 }
 
 .upload-text {
@@ -39,4 +41,5 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+  border-radius: 5px;
 }

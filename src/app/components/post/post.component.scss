@@ -1,0 +1,41 @@
+@import "../../../variables.scss";
+
+:host {
+  border: 1px solid $mediumGreyBG;
+  display: flex;
+  flex-direction: column;
+}
+
+.header-container {
+  display: flex;
+  padding: 15px;
+}
+
+.user-profile-pic {
+  width: 60px;
+  height: 60px;
+}
+
+.username-text {
+  margin: 0;
+  line-height: normal;
+  color: $black;
+}
+
+.post-time-text {
+  margin: 0;
+  line-height: normal;
+  color: $black;
+}
+
+.post-image-container {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  background-color: $lightGreyBG;
+
+  & img {
+    height: 100%;
+  }
+}
