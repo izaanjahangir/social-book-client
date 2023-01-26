@@ -15,6 +15,7 @@ import { ChatroomComponent } from './components/chatroom/chatroom.component';
 import { ChatroomHeaderComponent } from './components/chatroom/chatroom-header/chatroom-header.component';
 import { AvatarComponent } from './components/avatar/avatar.component';
 import { DrawerItemComponent } from './components/drawer/drawer-item/drawer-item.component';
+import { UploadPostFormComponent } from './components/upload-post-form/upload-post-form.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { DrawerItemComponent } from './components/drawer/drawer-item/drawer-item
     ChatroomComponent,
     ChatroomHeaderComponent,
     AvatarComponent,
-    DrawerItemComponent
+    DrawerItemComponent,
+    UploadPostFormComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,42 @@
+@import "../../../variables.scss";
+
+:host {
+  display: flex;
+  border: 1px solid black;
+}
+
+.image-container {
+  width: 150px;
+  height: 180px;
+  background-color: $lightGreyBG;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.upload-text {
+  color: black;
+  text-align: center;
+}
+
+.upload-icon {
+  width: 30px;
+  height: 30px;
+}
+
+.post-text-input {
+  border: 1px solid $mediumGreyBG;
+  border-radius: 5px;
+  padding: 10px;
+  resize: none;
+}
+
+.main-container {
+  flex: 1;
+  background-color: $white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
