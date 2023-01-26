@@ -1,1 +1,15 @@
-<button><ng-content></ng-content></button>
+<button>
+  <img
+    *ngIf="!isActive || !activeIconPath"
+    alt=""
+    class="action-icon"
+    [src]="iconPath"
+  />
+  <img
+    *ngIf="isActive && activeIconPath"
+    alt=""
+    class="action-icon"
+    [src]="activeIconPath"
+  />
+  <ng-content></ng-content>
+</button>
