@@ -21,6 +21,7 @@ import { PostActionButtonComponent } from './components/post/post-action-button/
 import { VerticalSeperatorComponent } from './components/vertical-seperator/vertical-seperator.component';
 import { ChatItemComponent } from './components/chatroom/chat-item/chat-item.component';
 import { StartChatMessageComponent } from './components/chatroom/start-chat-message/start-chat-message.component';
+import { StartChatItemComponent } from './components/chatroom/start-chat-item/start-chat-item.component';
 
 @NgModule({
   declarations: [
@@ -41,7 +42,8 @@ import { StartChatMessageComponent } from './components/chatroom/start-chat-mess
     PostActionButtonComponent,
     VerticalSeperatorComponent,
     ChatItemComponent,
-    StartChatMessageComponent
+    StartChatMessageComponent,
+    StartChatItemComponent
   ],
   imports: [
     BrowserModule,

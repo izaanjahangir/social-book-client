@@ -2,7 +2,8 @@
 
 :host {
   display: flex;
-  border: 1px solid $mediumGreyBG;
+  // border: 1px solid $mediumGreyBG;
+  box-shadow: 1px 1px 12px 1px rgba(0,0,0,0.3);
   border-radius: 5px;
 }
 
@@ -33,6 +34,11 @@
   border-radius: 5px;
   padding: 10px;
   resize: none;
+  outline: none;
+}
+
+.post-text-input:active, .post-text-input:focus {
+  outline: black auto 1px;
 }
 
 .main-container {

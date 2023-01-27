@@ -5,7 +5,7 @@
   display: flex;
   flex-direction: column;
   margin: 20px 0;
-  box-shadow: 1px 1px 5px 1px rgba(0,0,0,0.23);
+  box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.23);
   border-radius: 5px;
 }
 
@@ -31,6 +31,17 @@
   color: $black;
 }
 
+.post-text-container {
+  padding: 0 15px;
+  margin-bottom: 10px;
+}
+
+.post-text {
+  margin: 0;
+  line-height: 1.5;
+  color: $black;
+}
+
 .post-image-container {
   width: 100%;
   height: 400px;
@@ -38,7 +49,7 @@
   justify-content: center;
   background-color: $lightGreyBG;
   overflow-x: hidden;
-  
+
   & img {
     height: 100%;
   }
