@@ -11,6 +11,7 @@
 .left-arrow {
   width: 35px;
   height: 35px;
+  cursor: pointer;
 }
 
 .username {
@@ -18,7 +19,8 @@
   font-size: 1.3em;
   margin: 0;
   flex: 1;
-  text-align: center;
+  text-align: left;
+  margin-left: 15px;
 }
 
 .inbox-text {
