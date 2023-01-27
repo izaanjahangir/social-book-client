@@ -1,0 +1,53 @@
+@import "../../../../variables.scss";
+
+:host {
+  display: flex;
+  padding: 15px 10px;
+  border-radius: 8px;
+  width: 80%;
+  flex-direction: column;
+  position: relative;
+  margin: 15px 0;
+  box-shadow: 1px 1px 12px 1px rgba(0, 0, 0, 0.1);
+}
+
+:host:first-of-type {
+  margin-top: 0;
+}
+
+:host:last-of-type {
+  margin-bottom: 0;
+}
+
+:host(.other-message) {
+  background-color: $primary;
+}
+
+:host(.my-message) {
+  background-color: $white;
+  margin-left: auto;
+
+  & .message-text,
+  & .timestamp {
+    color: $black;
+   
+  }
+}
+
+.message-text {
+  margin: 0;
+  line-height: normal;
+  color: $white;
+  font-size: 1em;
+  margin-bottom: 10px;
+}
+
+.timestamp {
+  line-height: none;
+  margin: 0;
+  color: $white;
+  font-size: 0.7em;
+  position: absolute;
+  bottom: 3px;
+  right: 5px;
+}

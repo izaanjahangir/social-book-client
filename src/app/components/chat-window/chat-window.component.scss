@@ -4,10 +4,13 @@
   display: flex;
   flex-direction: column;
   flex: 1;
+  overflow-y: hidden;
 }
 
 .chat-container {
   flex: 1;
+  padding: 15px;
+  overflow-y: auto;
 }
 
 .input-container {
@@ -29,5 +32,6 @@
 }
 
 .send-button {
-    width: 60px;
+    width: 80px;
+    height: 40px;
 }

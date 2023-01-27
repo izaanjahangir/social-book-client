@@ -24,6 +24,7 @@ import { StartChatMessageComponent } from './components/chatroom/start-chat-mess
 import { StartChatItemComponent } from './components/chatroom/start-chat-item/start-chat-item.component';
 import { ChatWindowComponent } from './components/chat-window/chat-window.component';
 import { InboxWindowComponent } from './components/inbox-window/inbox-window.component';
+import { ChatWindowItemComponent } from './components/chat-window/chat-window-item/chat-window-item.component';
 
 @NgModule({
   declarations: [
@@ -47,7 +48,8 @@ import { InboxWindowComponent } from './components/inbox-window/inbox-window.com
     StartChatMessageComponent,
     StartChatItemComponent,
     ChatWindowComponent,
-    InboxWindowComponent
+    InboxWindowComponent,
+    ChatWindowItemComponent
   ],
   imports: [
     BrowserModule,
