@@ -1,0 +1,33 @@
+@import "../../../variables.scss";
+
+:host {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.chat-container {
+  flex: 1;
+}
+
+.input-container {
+  min-height: 60px;
+  background-color: $lightGreyBG;
+  width: 100%;
+  padding: 10px;
+}
+
+.input {
+  flex: 1;
+  height: 100%;
+  resize: none;
+  line-height: normal;
+  padding: 10px;
+  border-radius: 10px;
+  margin-right: 10px;
+  outline: none;
+}
+
+.send-button {
+    width: 60px;
+}
