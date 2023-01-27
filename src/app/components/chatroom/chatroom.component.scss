@@ -8,23 +8,3 @@
   background-color: $lightGreyBG;
   height: 100%;
 }
-
-.start-chat-item-container {
-  display: flex;
-  flex-direction: row;
-  overflow-x: auto;
-}
-
-.inbox-container {
-  overflow-y: auto;
-  padding: 15px;
-  display: flex;
-  flex-direction: column;
-  flex: 1;
-}
-
-.start-chat-text {
-  color: $black;
-  margin: 0;
-  line-height: normal;
-}

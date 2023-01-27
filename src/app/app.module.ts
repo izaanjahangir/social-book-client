@@ -22,6 +22,8 @@ import { VerticalSeperatorComponent } from './components/vertical-seperator/vert
 import { ChatItemComponent } from './components/chatroom/chat-item/chat-item.component';
 import { StartChatMessageComponent } from './components/chatroom/start-chat-message/start-chat-message.component';
 import { StartChatItemComponent } from './components/chatroom/start-chat-item/start-chat-item.component';
+import { ChatWindowComponent } from './components/chat-window/chat-window.component';
+import { InboxWindowComponent } from './components/inbox-window/inbox-window.component';
 
 @NgModule({
   declarations: [
@@ -43,7 +45,9 @@ import { StartChatItemComponent } from './components/chatroom/start-chat-item/st
     VerticalSeperatorComponent,
     ChatItemComponent,
     StartChatMessageComponent,
-    StartChatItemComponent
+    StartChatItemComponent,
+    ChatWindowComponent,
+    InboxWindowComponent
   ],
   imports: [
     BrowserModule,
