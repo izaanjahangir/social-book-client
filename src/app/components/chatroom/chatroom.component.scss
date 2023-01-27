@@ -5,33 +5,11 @@
   flex-direction: column;
   width: 12%;
   min-width: 450px;
-}
-
-.main-container {
   background-color: $lightGreyBG;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
+  height: 100%;
 }
 
-.start-chat-info-container {
-  flex: 1;
-  display: flex;
-  align-items: center;
-  padding: 0 15px;
-  justify-content: center;
-  flex-direction: column;
-
-}
-
-.start-chat-text {
-  color: $black;
-  font-weight: bold;
-  font-size: 1.4em;
-}
-
-.no-chat-icon {
-  width: 70px;
-  height: 70px;
-  margin-bottom: 20px;
+.inbox-container {
+  overflow-y: auto;
+  padding: 15px;
 }

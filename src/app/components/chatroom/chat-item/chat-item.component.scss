@@ -1,0 +1,56 @@
+@import "../../../../variables.scss";
+
+:host {
+  display: flex;
+  flex-direction: row;
+  background-color: $white;
+  padding: 15px 15px;
+  margin: 15px 0;
+  border-radius: 10px;
+  box-shadow: 1px 1px 12px 1px rgba(0,0,0,0.1);
+}
+
+:host:first-of-type {
+  margin-top: 0;
+}
+
+:host:last-of-type {
+  margin-bottom: 0;
+}
+
+.profile-pic {
+  width: 60px;
+  height: 60px;
+}
+
+.text-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  justify-content: center;
+  //   margin-top: 5px;
+}
+
+.username {
+  color: $black;
+  margin: 0;
+  line-height: normal;
+  font-size: 1.1em;
+}
+
+.last-message {
+  color: $grey;
+  margin: 0;
+  line-height: normal;
+  margin-top: 5px;
+  font-size: 0.85em;
+}
+
+.timestamp {
+  margin: 0;
+  color: $grey;
+  line-height: normal;
+  font-size: 0.9em;
+  margin-top: 10px;
+}

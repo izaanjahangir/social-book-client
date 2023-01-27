@@ -1,10 +1,12 @@
 @import "../../../variables.scss";
 
 :host {
-  border: 1px solid $mediumGreyBG;
+  // border: 1px solid $mediumGreyBG;
   display: flex;
   flex-direction: column;
-  margin: 10px 0;
+  margin: 20px 0;
+  box-shadow: 1px 1px 5px 1px rgba(0,0,0,0.23);
+  border-radius: 5px;
 }
 
 .header-container {
@@ -35,7 +37,8 @@
   display: flex;
   justify-content: center;
   background-color: $lightGreyBG;
-
+  overflow-x: hidden;
+  
   & img {
     height: 100%;
   }

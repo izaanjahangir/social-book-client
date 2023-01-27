@@ -19,6 +19,8 @@ import { UploadPostFormComponent } from './components/upload-post-form/upload-po
 import { PostComponent } from './components/post/post.component';
 import { PostActionButtonComponent } from './components/post/post-action-button/post-action-button.component';
 import { VerticalSeperatorComponent } from './components/vertical-seperator/vertical-seperator.component';
+import { ChatItemComponent } from './components/chatroom/chat-item/chat-item.component';
+import { StartChatMessageComponent } from './components/chatroom/start-chat-message/start-chat-message.component';
 
 @NgModule({
   declarations: [
@@ -37,7 +39,9 @@ import { VerticalSeperatorComponent } from './components/vertical-seperator/vert
     UploadPostFormComponent,
     PostComponent,
     PostActionButtonComponent,
-    VerticalSeperatorComponent
+    VerticalSeperatorComponent,
+    ChatItemComponent,
+    StartChatMessageComponent
   ],
   imports: [
     BrowserModule,
