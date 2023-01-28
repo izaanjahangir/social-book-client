@@ -25,6 +25,9 @@ import { StartChatItemComponent } from './components/chatroom/start-chat-item/st
 import { ChatWindowComponent } from './components/chat-window/chat-window.component';
 import { InboxWindowComponent } from './components/inbox-window/inbox-window.component';
 import { ChatWindowItemComponent } from './components/chat-window/chat-window-item/chat-window-item.component';
+import { PostCommentSectionComponent } from './components/post-comment-section/post-comment-section.component';
+import { BsModalService, ModalModule } from 'ngx-bootstrap/modal';
+import { CommentItemComponent } from './components/post-comment-section/comment-item/comment-item.component';
 
 @NgModule({
   declarations: [
@@ -49,12 +52,15 @@ import { ChatWindowItemComponent } from './components/chat-window/chat-window-it
     StartChatItemComponent,
     ChatWindowComponent,
     InboxWindowComponent,
-    ChatWindowItemComponent
+    ChatWindowItemComponent,
+    PostCommentSectionComponent,
+    CommentItemComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    ModalModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]

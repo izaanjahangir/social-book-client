@@ -1,0 +1,44 @@
+@import "../../../../variables.scss";
+
+:host {
+  display: flex;
+  flex-direction: row;
+  margin: 15px 0;
+}
+
+:host:first-of-type {
+  margin-top: 0;
+}
+
+:host:last-of-type {
+  margin-bottom: 0;
+}
+
+.profile-pic {
+  width: 50px;
+  height: 50px;
+}
+
+.text-container {
+  background-color: $lightGreyBG;
+  flex: 1;
+  margin-left: 10px;
+  padding: 12px;
+  border-radius: 10px;
+}
+
+.username {
+  color: $black;
+  margin: 0;
+  line-height: normal;
+  font-size: 0.9em;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.text {
+  color: $black;
+  margin: 0;
+  line-height: 1.5;
+  font-size: 0.85em;
+}

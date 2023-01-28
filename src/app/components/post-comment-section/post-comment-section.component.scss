@@ -1,0 +1,28 @@
+:host {
+  height: 80vh;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  overflow-y: hidden;
+}
+
+.main-container {
+  flex: 1;
+  overflow-y: auto;
+}
+
+.comment-input {
+  flex: 1;
+  height: 100%;
+  resize: none;
+  line-height: normal;
+  padding: 10px;
+  border-radius: 10px;
+  margin-right: 10px;
+  outline: none;
+}
+
+.send-button {
+  width: 80px;
+  height: 40px;
+}
